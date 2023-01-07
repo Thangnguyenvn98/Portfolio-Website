@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
-import HeaderImage from '../../assets/me-about.jpg'
+import HeaderImage from '../../assets/profile-picture.jpg'
 import data from './data'
 import {FiDownload} from 'react-icons/fi'
-import Resume from '../../assets/cv.pdf'
+import Resume from '../../assets/Thang-Resume 2022.pdf'
 
 const Header = () => {
   return (

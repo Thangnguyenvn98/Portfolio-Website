@@ -20,9 +20,10 @@ const Footer = () => {
 
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com" target='_blank'><BsFacebook/></a>
-        <a href="https://signal.com" target='_blank'><BsSignal/></a>
-        <a href="https://whatsapp.com" target='_blank'><BsWhatsapp/></a>
+        <a href="https://www.facebook.com/KAk4sh1/" target='_blank'><BsFacebook/></a>
+        <a href="https://imgur.com/j7UTTxJ"img src="https://i.imgur.com/j7UTTxJ.jpg" title="source: imgur.com" target='_blank'><BsSignal/></a>
+
+        <a href="https://imgur.com/l20BJoy" img src="https://i.imgur.com/l20BJoy.jpg" title="source: imgur.com" target='_blank'><BsWhatsapp/></a>
 
       </div>
       <div className="footer_copyright">
