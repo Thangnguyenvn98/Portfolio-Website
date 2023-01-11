@@ -18,7 +18,7 @@ The website is divided into the following sections:
 
 - *Footer*: This section contains my other social where you can find me and also my name where you can click that would direct you to the top of the page.
 
-##Usage
+## Usage
 
 To use this website, you can simply browse through the sections and pages using the navigation menu. 
 
