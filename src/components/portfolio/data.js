@@ -8,7 +8,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 
 const data = [
-    {id:1,image: IMG1,title:'Cryptocurrency',github:'https://github.com',demo:'https://github.com'},
+    {id:1,image: IMG1,title:'Thang Nguyen - Personal Website',github:'https://github.com/Thangnguyenvn98/Portfolio-Website',demo:'https://www.thang-nguyen.ca/'},
     {id:2,image: IMG2,title:'Cryptocurrency',github:'https://github.com',demo:'https://github.com'},
     {id:3,image: IMG3,title:'Cryptocurrency',github:'https://github.com',demo:'https://github.com'},
     {id:4,image: IMG4,title:'Cryptocurrency',github:'https://github.com',demo:'https://github.com'},

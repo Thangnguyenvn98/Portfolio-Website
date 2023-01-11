@@ -23,7 +23,7 @@
 .experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
-    color:var(--primary-color-variant);
+    color:var(--offset-color);
 }
 
 .experience__content {
@@ -43,9 +43,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    section {
-        margin-top: 1rem;
-    }
+  
     .experience__container{
         grid-template-columns: 1fr;
     
@@ -71,3 +69,17 @@
         padding: 2rem 1rem;
     }
 }
+
+@media screen and (max-width: 414px){
+    #experience{
+        margin-top:14rem;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    #experience{
+        margin-top:22rem;
+    }
+}
+  

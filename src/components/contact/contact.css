@@ -20,7 +20,13 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+.contact__option a {
+    color:var(--primary-color-variant);
+}
 
+.contact__option a:hover {
+    color:var(--orange-color);
+}
 .contact__option:hover {
     background: transparent;
     border-color: var(--primary-color-variant);
@@ -40,6 +46,7 @@ input, textarea{
     background: transparent;
     border: 2px solid var(--primary-color);
     resize: none;
+    color: var(--color-white);
 
 }
 

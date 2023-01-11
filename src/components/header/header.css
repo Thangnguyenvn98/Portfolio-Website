@@ -27,6 +27,7 @@ header {
     width: 40rem;
     text-align: center;
     margin: 0.6rem 0 2rem;
+    color:var(--color-white);
 }
 .header__btn{
     display: flex;
@@ -38,7 +39,7 @@ header {
     gap: 1.2rem;
     flex-direction: column;
     left: 5rem;
-    bottom: 0;
+    bottom: 2rem;
     position: fixed;
 }
 
@@ -68,6 +69,12 @@ header {
         left:1rem;
     }
  
+}
+
+@media screen and (max-width: 820px) {
+    .header__socials{
+        left:0.75rem;
+    }
 }
 
 @media screen and (max-width: 600px) {

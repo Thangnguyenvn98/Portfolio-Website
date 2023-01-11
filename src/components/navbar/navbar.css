@@ -1,4 +1,4 @@
-nav {
+nav[role="main"] {
     width: 100vw;
     height: 5rem;
     background: var(--offset-color);
@@ -32,7 +32,7 @@ nav {
 }
 
 @media screen and (max-width: 1024px){
-    nav {
+    nav[role="main"] {
         display:none;
         z-index:-1;
     }

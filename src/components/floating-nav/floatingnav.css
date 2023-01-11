@@ -1,4 +1,4 @@
-.floating-nav {
+nav[role="sub"] {
     background: rgba(0,0,0,0.3);
     width: max-content;
     display: block;
@@ -7,15 +7,16 @@
     position: fixed;
     left: 50%;
     transform:translateX(-50%);
-    bottom: 2rem;
+    top: 1rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(20px);
+    visibility:hidden;
 
 
 }
-.floating-nav a{
+nav[role="sub"] a{
     background: transparent;
     padding:0.9rem;
     display: flex;
@@ -23,17 +24,18 @@
     border-radius: 50%;
     color: white;
 }
-.floating-nav a:hover {
+nav[role="sub"] a:hover {
     background: rgba(0,0,0,0.3);
 }
 
-.floating-nav a.active {
-    background: red;
+nav[role="sub"] a.active {
+    background: var(--offset-color);
     color: white;
 }
 @media screen and (max-width:1024px) {
-    .floating-nav {
+    nav[role="sub"] {
         z-index:10;
+        visibility:visible;
        
     }
     

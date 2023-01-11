@@ -5,7 +5,7 @@ import data from './data'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav role='main'>
         <div className="container nav__container">
             <a href="index.html" className='nav__logo'>
                 <img src={Logo} alt="My Logo Picture" />

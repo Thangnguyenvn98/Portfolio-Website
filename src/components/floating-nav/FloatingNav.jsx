@@ -10,7 +10,7 @@ import { useState } from 'react';
 const FloatingNav = () => {
   const [activeNav,setActiveNav] = useState('#')
   return (
-    <nav className='floating-nav'>
+    <nav role="sub" >
         <a href='/#' onClick={()  => setActiveNav('#')} className={activeNav === '#' ? 'active':''}><AiOutlineHome/></a>
         <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active': ''}><FaLayerGroup/></a>
         <a href="#portfolio" onClick={() =>setActiveNav('#portfolio')} className={activeNav === '#portfolio'?'active':''}><MdWorkOutline/></a>

@@ -11,19 +11,20 @@
 
 :root {
   --transition: all 500ms ease;
-  --bg-color: #fdf5df;
-  --primary-color: #5ebec4;
-  --color-black: black;
-  --primary-color-variant: #f92c85;
+  --bg-color: #14365d;
+  --primary-color: #a96762;
+  --color-white: white;
+  --primary-color-variant: #f64c72;
   --container-width-lg : 75%;
   --container-width-md: 90%;
-  --secondary-color: #ffd9f2;
-  --offset-color: #dfcd9b;
+  --secondary-color: #b999be;
+  --offset-color: #2f5cbf;
+  --orange-color: #d85c27;
 
 }
 
 .text-black {
-  color: black;
+  color: white;
 }
 
 html {
@@ -41,6 +42,7 @@ body {
 
 h1,h2,h3,h4,h5 {
   font-weight : 500;
+  color:var(--color-white);
 }
 
 .container {
@@ -51,11 +53,11 @@ h1,h2,h3,h4,h5 {
 
 a {
   transition: var(--transition);
-  color: var(--primary-color-variant);
+  color: var(--color-white);
 }
 
 a:hover {
-  color: #FF7F50;
+  color: var(--orange-color);
 }
 
 .btn {
@@ -65,7 +67,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: var(--color-black);
+  color: var(--color-white);
   border: 2px solid transparent;
   border-radius: 0.6rem;
   background: var(--primary-color-variant);
@@ -75,7 +77,7 @@ a:hover {
 
 .btn:hover{
   background-color: transparent;
-  border-color: var(--color-black);
+  border-color: var(--primary-color-variant);
   transform: translateY(-0.5rem);
 }
 
@@ -95,7 +97,7 @@ img {
 }
 
 section {
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 section > h2, 
@@ -108,11 +110,14 @@ section > h2{
 }
 
 @media screen and (max-width: 1024px){
+  .header__container {
+    margin-top:3rem;
+  }
   .container {
     width: 86%;
   }
 
-  .section {
+  section {
     margin-top:6rem;
   }
 }
@@ -122,7 +127,31 @@ section > h2{
     width: 90%;
   }
 
-  .section > h2 {
+  section > h2 {
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-width: 820px){
+  section {
+    margin-top: 1.5rem;
+  }
+  #header {
+    margin-top: 1rem;
+  }
+  .container {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 414px){
+  #header {
+    margin-top:2.5rem;
+  }
+  .header__container {
+    margin-top:3.5rem;
+  }
+  .container {
+    width: 92%;
+  }
+}
+
