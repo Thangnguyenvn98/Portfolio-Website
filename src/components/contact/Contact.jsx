@@ -37,7 +37,7 @@ const Contact = () => {
             <AiFillFilePdf/>
             <h4>Resume</h4>
             <h5>Thang Nguyen</h5>
-            <a href={Resume} download="thang_nguyen-resume"target='_blank'> Click to Download</a>
+            <a href={Resume} download="thang_nguyen-resume" target='_blank'> Click to Download</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
