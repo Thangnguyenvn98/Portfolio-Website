@@ -31,13 +31,13 @@ const Contact = () => {
             <AiOutlineMail/>
             <h4>Email</h4>
             <h5>thangnguyenvn647@gmail.com</h5>
-            <a href="mailto:thangnguyenvn647@gmail.com" target='_blank'> Send a message</a>
+            <a href="mailto:thangnguyenvn647@gmail.com" rel="noreferrer" target='_blank'> Send a message</a>
           </article>
           <article className='contact__option'>
             <AiFillFilePdf/>
             <h4>Resume</h4>
             <h5>Thang Nguyen</h5>
-            <a href={Resume} download="thang_nguyen-resume" target='_blank'> Click to Download</a>
+            <a href={Resume} download="thang_nguyen-resume" rel="noreferrer"target='_blank'> Click to Download</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
