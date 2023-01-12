@@ -3,7 +3,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {AiFillFilePdf} from 'react-icons/ai'
 import emailjs from 'emailjs-com'
 import React, { useRef } from 'react';
-import Resume from '../../assets/Thang-Resume 2022.pdf'
+import Resume from '../../assets/Thang-Resume 2023.pdf'
 
 
 

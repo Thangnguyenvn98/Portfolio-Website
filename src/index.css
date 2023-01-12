@@ -127,8 +127,6 @@ section > h2{
     width: 90%;
   }
 
-
-
   section > h2 {
     margin-bottom: 2rem;
   }
@@ -147,6 +145,21 @@ section > h2{
     display:none;
   }
 }
+@media screen and (max-height: 450px){
+  #experience {
+    margin-top:30rem;
+  }
+  
+  #header {
+    margin-top: 3.3rem;
+  }
+ 
+  ::-webkit-scrollbar{
+    display:none;
+  }
+ 
+}
+
 
 
 @media screen and (max-width: 414px){
