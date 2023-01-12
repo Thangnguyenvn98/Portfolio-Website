@@ -127,6 +127,8 @@ section > h2{
     width: 90%;
   }
 
+
+
   section > h2 {
     margin-bottom: 2rem;
   }
@@ -141,7 +143,11 @@ section > h2{
   .container {
     width: 88%;
   }
+  ::-webkit-scrollbar{
+    display:none;
+  }
 }
+
 
 @media screen and (max-width: 414px){
   #header {
