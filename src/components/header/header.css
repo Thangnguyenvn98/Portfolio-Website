@@ -51,6 +51,7 @@ header {
     display: grid;
     place-items: center;
     border-radius: 0.4rem;
+    transition: var(--transition);
 }
 
 .header__socials a:hover{
