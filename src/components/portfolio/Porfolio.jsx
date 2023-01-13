@@ -18,8 +18,8 @@ const Porfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-button">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn white' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
+                <a href={demo} className='btn white' target='_blank' rel='noreferrer'>Live Demo</a>
               </div>
             </article>
           )

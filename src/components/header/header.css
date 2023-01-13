@@ -27,7 +27,7 @@ header {
     width: 40rem;
     text-align: center;
     margin: 0.6rem 0 2rem;
-    color:var(--color-white);
+    color:var(--text-color);
 }
 .header__btn{
     display: flex;
@@ -47,7 +47,7 @@ header {
     width: 1.8rem;
     aspect-ratio: 1/1;
     color: black;
-    background: #FF7F50;
+    background: var(--icon-color);
     display: grid;
     place-items: center;
     border-radius: 0.4rem;
@@ -55,7 +55,7 @@ header {
 
 .header__socials a:hover{
     background: var(--offset-color);
-    color: white;
+    color: var(--button-text-color);
     transform: translateX(-0.5rem); 
 }
 

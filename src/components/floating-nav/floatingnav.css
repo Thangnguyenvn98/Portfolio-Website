@@ -30,7 +30,7 @@ nav[role="sub"] a:hover {
 
 nav[role="sub"] a.active {
     background: var(--offset-color);
-    color: white;
+    color: var(--primary-button-color);
 }
 @media screen and (max-width:1024px) {
     nav[role="sub"] {

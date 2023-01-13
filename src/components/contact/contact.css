@@ -13,7 +13,7 @@
 }
 
 .contact__option {
-    background: var(--primary-color);
+    background: var(--container-color);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -21,15 +21,20 @@
     transition: var(--transition);
 }
 .contact__option a {
-    color:var(--primary-color-variant);
+    color:var(--container-heading-color);
 }
 
 .contact__option a:hover {
-    color:var(--orange-color);
+    color:var(--primary-button-color);
 }
 .contact__option:hover {
     background: transparent;
-    border-color: var(--primary-color-variant);
+    border-color: var(--primary-button-color);
+
+}
+.contact__option-icon {
+    font-size: 1.8rem;
+    color: var(--text-color);
 }
 
 form {
@@ -39,12 +44,16 @@ form {
     
 }
 
+form > button:hover {
+    color: var(--heading-color);
+}
+
 input, textarea{
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--container-color);
     resize: none;
     color: var(--color-white);
 

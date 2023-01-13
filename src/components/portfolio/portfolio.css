@@ -6,7 +6,7 @@
 
 
 .portfolio__item {
-    background: var(--primary-color);
+    background: var(--container-color);
     border: 1px solid transparent;
     padding: 1.5rem;
     border-radius: 2rem;
@@ -17,7 +17,7 @@
 }
 
 .portfolio__item:hover {
-    background: #482673;
+    background: var(--portfolio-hover);
     border-color: var(--primary-color-variant);
 }
 

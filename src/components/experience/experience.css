@@ -7,7 +7,7 @@
 }
 
 .experience__container > div {
-    background: var(--primary-color);
+    background: var(--container-color);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -16,14 +16,14 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--primary-color-variant);
+    border-color: var(--primary-button-color);
     cursor: default;
 }
 
 .experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
-    color:var(--offset-color);
+    color:var(--container-heading-color);
 }
 
 .experience__content {
@@ -39,7 +39,8 @@
 
 .experience__details-icon{
     margin-top: 0.4rem;
-    color: var(--secondary-color);
+   
+    color: var(--secondary-button-color);
 }
 
 @media screen and (max-width: 1024px){

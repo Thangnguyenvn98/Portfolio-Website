@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
-import {AiFillCheckCircle} from 'react-icons/ai'
+import frontend from './frontend'
+import backend from './backend'
 
 const Experience = () => {
   return (
@@ -11,53 +12,13 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Front End</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>HTML</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>CSS</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>JavaScript</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>React</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
+            {frontend.map(item=><article key={item.id} className={item.articleClass}>{item.icon}<div><h4>{item.title}</h4><small className={item.smallClass}>{item.experience}</small></div></article>)}
           </div>
         </div>
-        
         <div className="experience__backend">
           <h3>Back End</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>Python</h4>
-              <small className="text-black">Intermediate</small></div>
-              
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>Java</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>MySQL</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
-            <article className="experience__details">
-              <AiFillCheckCircle className='experience__details-icon'/>
-              <div><h4>TypeScript</h4>
-              <small className="text-black">Intermediate</small></div>
-            </article>
+          {backend.map(item=><article key={item.id} className={item.articleClass}>{item.icon}<div><h4>{item.title}</h4><small className={item.smallClass}>{item.experience}</small></div></article>)}
           </div>
         </div>
       </div>
