@@ -1,4 +1,4 @@
-nav[role="main"] {
+#navbar {
     width: 100vw;
     height: 5rem;
     background: var(--offset-color);
@@ -43,7 +43,7 @@ nav[role="main"] {
 
 
 @media screen and (max-width: 1024px){
-    nav[role="main"] {
+    #navbar {
         visibility:hidden;
         z-index:-1;
     }

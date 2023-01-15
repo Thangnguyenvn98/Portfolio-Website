@@ -4,11 +4,11 @@ import {FiSun, FiMoon} from 'react-icons/fi'
 import './themetogglerbutton.css'
 
 const ThemeTogglerButton = () => {
-    const [icon, setIcon] = useState('moon');
+    const [icon, setIcon] = useState('sun');
 
     useEffect(() => {
       const themeStyles = {
-        sun: {
+        moon: {
           '--bg-color': '#283747',
           '--container-color': '#4b5d67',
           '--heading-color': '#F3F3F3',
@@ -18,21 +18,21 @@ const ThemeTogglerButton = () => {
           '--icon-color': '#A77979',
           '--button-text-color': 'white',
           '--text-color': '#F3F3F3',
-          '--portfolio-hover': '#fcd200',
+          '--portfolio-hover': '#615c84',
           '--container-heading-color': '#A5C9CA',
           '--texts-color': 'white'
         },
-        moon: {
+        sun: {
           '--bg-color': '#F3F3F3',
-          '--container-color': '#75c9b7',
+          '--container-color': '#ffd8b9',
           '--heading-color': '#283747',
           '--primary-button-color': '#ffa8B6',
           '--secondary-button-color': '#c7ddcc',
-          '--offset-color': '#F0D6FA',
+          '--offset-color': '#B1CAE9',
           '--icon-color': '#abd699',
-          '--button-text-color': 'black',
+          '--button-text-color': 'white',
           '--text-color': 'black',
-          '--portfolio-hover': '#fcd200',
+          '--portfolio-hover': '#615c84',
           '--container-heading-color': '#266150',
           '--texts-color': 'black'
   
@@ -44,7 +44,7 @@ const ThemeTogglerButton = () => {
     }, [icon]);
   return (
     
-    <button className = "theme__icon" onClick={() => setIcon(icon === 'sun' ? 'moon' : 'sun')}>{icon==='sun'?<FiSun /> : <FiMoon />}</button>
+    <button className = "theme__icon" onClick={() => setIcon(icon === 'moon' ? 'sun' : 'moon')}>{icon==='sun'?<FiMoon /> : <FiSun />}</button>
     )
 }
 

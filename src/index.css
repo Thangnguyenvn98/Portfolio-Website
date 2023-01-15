@@ -11,22 +11,9 @@
 }
 
 :root {
-  --texts-color: white;
-
   --transition: all 500ms ease;
-  --bg-color: #F3F3F3;
-  --container-color: #75c9b7;
-  --heading-color: #283747;
-  --primary-button-color: #ffa8B6 ;
   --container-width-lg : 75%;
   --container-width-md: 90%;
-  --secondary-button-color: #c7ddcc;
-  --offset-color: #F0D6FA;
-  --icon-color: #abd699;
-  --button-text-color:black;
-  --text-color: black;
-  --portfolio-hover:#fcd200;
-  --container-heading-color:#266150;
 }
 
 .text-black {
@@ -73,7 +60,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: var(--button-text-color);
+  color: var(--text-color);
   border: 2px solid transparent;
   border-radius: 0.6rem;
   background: var(--primary-button-color);
@@ -179,4 +166,3 @@ section > h2{
     width: 92%;
   }
 }
-

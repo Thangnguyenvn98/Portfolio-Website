@@ -11,7 +11,7 @@ const Navbar = () => {
   
   return (
     
-    <nav role='main'>
+    <nav id="navbar" role='main'>
         <div className="container nav__container">
             <a href="index.html" className='nav__logo'>
                 <img src={Logo} alt="" />

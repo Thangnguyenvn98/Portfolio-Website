@@ -44,9 +44,13 @@ footer {
     color: var(--icon-color);
 }
 
+.footer__logo:hover{
+    color: var(--text-color);
+}
+
 .footer__socials a{
     background:rgb(30, 30, 50);
-    color: white;
+    color: var(--text-color);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
@@ -56,6 +60,7 @@ footer {
 
 .footer__socials a:hover {
     transform:translateY(-0.5rem);
+    color: var(--text-color);
 }
 
 @media screen and (max-width:600px){
