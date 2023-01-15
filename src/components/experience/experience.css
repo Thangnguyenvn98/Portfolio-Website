@@ -62,11 +62,7 @@
     }
 }
 
-@media screen and (max-height: 1024px){
-    #experience {
-        margin-top: 30rem;
-    }
-}
+
 
 @media screen and (max-width: 820px)  {
     #experience{
@@ -74,11 +70,7 @@
     }
 }
 
-@media screen and (max-height: 820px){
-    #experience {
-        margin-top: 30rem;
-    }
-}
+
 
 @media screen and (max-width: 600px) 
 {
