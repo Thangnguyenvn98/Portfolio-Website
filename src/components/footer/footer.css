@@ -14,8 +14,8 @@ footer {
 }
 
 .permalinks >li a{
-    background:rgb(30, 30, 50);
-    color: white;
+    background: var(--offset-color);
+    color: green;
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
@@ -41,7 +41,7 @@ footer {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
-    color: var(--secondary-button-color);
+    color: var(--icon-color);
 }
 
 .footer__socials a{

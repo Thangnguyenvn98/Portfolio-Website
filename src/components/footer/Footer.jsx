@@ -11,7 +11,7 @@ import {BsDiscord} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer id='footer'>
-      <a href="#" className='footer__logo'>Thang Nguyen</a>
+      <a href="/#" className='footer__logo'>Thang Nguyen</a>
       <ul className='permalinks'>
         <li><a href="https://linkedin.com"><BsLinkedin/></a></li>
         <li><a href="https://github.com"><BsGithub/></a></li>
@@ -20,10 +20,10 @@ const Footer = () => {
 
       </ul>
       <div className="footer__socials">
-        <a href="https://www.facebook.com/KAk4sh1/" target='_blank'><BsFacebook/></a>
-        <a href="https://imgur.com/j7UTTxJ"img src="https://i.imgur.com/j7UTTxJ.jpg" title="source: imgur.com" target='_blank'><BsSignal/></a>
+        <a href="https://www.facebook.com/KAk4sh1/" target='_blank' rel='noreferrer'><BsFacebook/></a>
+        <a href="https://imgur.com/j7UTTxJ"img src="https://i.imgur.com/j7UTTxJ.jpg" title="source: imgur.com" target='_blank' rel='noreferrer'><BsSignal/></a>
 
-        <a href="https://imgur.com/l20BJoy" img src="https://i.imgur.com/l20BJoy.jpg" title="source: imgur.com" target='_blank'><BsWhatsapp/></a>
+        <a href="https://imgur.com/l20BJoy" img src="https://i.imgur.com/l20BJoy.jpg" title="source: imgur.com" target='_blank' rel='noreferrer'><BsWhatsapp/></a>
 
       </div>
       <div className="footer_copyright">

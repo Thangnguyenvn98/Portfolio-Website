@@ -30,13 +30,17 @@ nav[role="sub"] a:hover {
 
 nav[role="sub"] a.active {
     background: var(--offset-color);
-    color: var(--primary-button-color);
+    color: var(--text-color);
 }
 @media screen and (max-width:1024px) {
     nav[role="sub"] {
         z-index:10;
         visibility:visible;
        
+    }
+    .theme__icon {
+        font-size:1.1rem;
+        background: transparent;
     }
     
 }

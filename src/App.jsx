@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar'
-import ThemeTogglerButton from './ThemeTogglerButton';
 import Header from './components/header/Header'
 import FloatingNav from './components/floating-nav/FloatingNav'
 import Portfolio from './components/portfolio/Porfolio'
@@ -11,8 +10,10 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <main>
+    
     <Navbar/>
     <FloatingNav/>
+    
     <Header/>
     <Experience/>
     <Portfolio/>

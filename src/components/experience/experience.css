@@ -39,8 +39,7 @@
 
 .experience__details-icon{
     margin-top: 0.4rem;
-   
-    color: var(--secondary-button-color);
+    color: var(--primary-button-color);
 }
 
 @media screen and (max-width: 1024px){

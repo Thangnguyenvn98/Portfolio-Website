@@ -1,4 +1,5 @@
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,23 +13,24 @@
 :root {
   --transition: all 500ms ease;
   --bg-color: #F3F3F3;
-  --container-color: #ffa8B6;
+  --container-color: #75c9b7;
   --heading-color: #283747;
-  --primary-button-color: #75c9b7;
+  --primary-button-color: #ffa8B6 ;
   --container-width-lg : 75%;
   --container-width-md: 90%;
   --secondary-button-color: #c7ddcc;
-  --offset-color: #16123f;
+  --offset-color: #F0D6FA;
   --icon-color: #abd699;
-  --button-text-color:white;
+  --button-text-color:black;
   --text-color: black;
   --portfolio-hover:#fcd200;
   --container-heading-color:#266150;
   
+  
 }
 
 .text-black {
-  color: black;
+  color: var(--text-color);
 }
 
 html {
@@ -57,11 +59,11 @@ h1,h2,h3,h4,h5 {
 
 a {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 a:hover {
-  color: var(--text-color);
+  color: var(--button-text-color);
 }
 
 .btn {
