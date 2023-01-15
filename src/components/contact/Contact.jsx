@@ -1,9 +1,7 @@
 import './contact.css'
-import {AiOutlineMail} from 'react-icons/ai'
-import {AiFillFilePdf} from 'react-icons/ai'
 import emailjs from 'emailjs-com'
 import React, { useRef } from 'react';
-import Resume from '../../assets/Thang-Resume 2023.pdf'
+import data from './data'
 
 
 
@@ -28,18 +26,16 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className='contact__option'>
-            <AiOutlineMail className = "contact__option-icon"/>
-            <h4>Email</h4>
-            <h5>thangnguyenvn647@gmail.com</h5>
-            <a href="mailto:thangnguyenvn647@gmail.com" rel="noreferrer" target='_blank'> Send a message</a>
-          </article>
-          <article className='contact__option'>
-            <AiFillFilePdf className = "contact__option-icon"/>
-            <h4>Resume</h4>
-            <h5>Thang Nguyen</h5>
-            <a href={Resume} download="thang_nguyen-resume" rel="noreferrer"target='_blank'> Click to Download</a>
-          </article>
+          {
+            data.map(item =>
+            <article key={item.id} className={item.articleClass}>{item.icon}
+            <h4>{item.title}</h4>
+            <h5>{item.description}</h5>
+            <a href={item.link} download={item.downloads} rel={item.rel} target={item.target}>
+            {item.message}</a>
+            </article>)
+          }
+          
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
