@@ -1,0 +1,22 @@
+.theme__icon {
+    box-shadow: 0 0 0 3px var(--text-color) ;
+    background: var(--offset-color);
+    color: var(--button-text-color);
+    font-size: 2rem;
+    cursor:pointer;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    
+}
+
+.theme__icon:hover {
+    color: #ffff00
+    ;
+    transform: rotate(360deg);
+    transition: var(--transition);
+
+}

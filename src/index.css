@@ -11,6 +11,8 @@
 }
 
 :root {
+  --texts-color: white;
+
   --transition: all 500ms ease;
   --bg-color: #F3F3F3;
   --container-color: #75c9b7;
@@ -25,8 +27,6 @@
   --text-color: black;
   --portfolio-hover:#fcd200;
   --container-heading-color:#266150;
-  
-  
 }
 
 .text-black {

@@ -7,6 +7,7 @@ import Resume from '../../assets/Thang-Resume 2023.pdf'
 
 
 
+
 const Contact = () => {
   const form = useRef();
 
@@ -47,6 +48,7 @@ const Contact = () => {
           <button type='submit' className='btn'>Send Message</button>
         </form>
       </div>
+      
     </section>
   )
 }

@@ -13,9 +13,9 @@ footer {
    
 }
 
-.permalinks >li a{
-    background: var(--offset-color);
-    color: green;
+.permalinks a{
+    background: var(--icon-color);
+    color: var(--button-text-color);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
@@ -23,9 +23,9 @@ footer {
     transition: var(--transition);
 }
 
-.permalinks >li a:hover{
+.permalinks a:hover{
     transform:translateY(-0.5rem);
-    color:blue;
+    color: var(--bg-color);
     
 }
 

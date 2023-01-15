@@ -61,10 +61,8 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-    header {
-        margin-top: 5vh;
-        height: 80vh;
-       
+    .header__container {
+        margin-top:5rem;
     }
     .header__socials {
         left:1rem;

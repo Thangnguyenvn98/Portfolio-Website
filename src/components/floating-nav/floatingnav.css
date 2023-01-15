@@ -44,3 +44,9 @@ nav[role="sub"] a.active {
     }
     
 }
+
+@media screen and (max-width:600px) {
+    nav[role="sub"] {
+        gap:0.1rem;
+    }
+}
