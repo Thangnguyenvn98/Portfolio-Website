@@ -81,14 +81,14 @@
 
 @media screen and (max-width: 414px) {
     #experience{
-        margin-top:8rem;
+        margin-top:10rem;
     }
 }
 
 
 @media screen and (max-width: 393px){
     #experience{
-        margin-top:16rem;
+        margin-top:20rem;
     }
 }
   
