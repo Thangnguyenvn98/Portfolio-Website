@@ -103,16 +103,11 @@ section > h2{
 }
 
 @media screen and (max-width: 1024px){
-  .header__container {
-    margin-top:3rem;
-  }
+  
   .container {
     width: 86%;
-  }
-
-  section {
-    margin-top:6rem;
-  }
+ 
+}
 }
 
 @media screen and (max-width: 600px){
@@ -129,7 +124,7 @@ section > h2{
     margin-top: 1.5rem;
   }
   #header {
-    margin-top: 1rem;
+    margin-top: 3.2rem;
   }
   .container {
     width: 88%;
@@ -157,11 +152,9 @@ section > h2{
 
 @media screen and (max-width: 414px){
   #header {
-    margin-top:2.5rem;
+    margin-top:8rem;
   }
-  .header__container {
-    margin-top:3.5rem;
-  }
+ 
   .container {
     width: 92%;
   }

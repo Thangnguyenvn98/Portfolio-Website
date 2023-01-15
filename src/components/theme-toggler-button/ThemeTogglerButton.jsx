@@ -20,7 +20,7 @@ const ThemeTogglerButton = () => {
           '--text-color': '#F3F3F3',
           '--portfolio-hover': '#615c84',
           '--container-heading-color': '#A5C9CA',
-          '--texts-color': 'white'
+          '--texts-color': 'black'
         },
         sun: {
           '--bg-color': '#F3F3F3',
@@ -34,7 +34,7 @@ const ThemeTogglerButton = () => {
           '--text-color': 'black',
           '--portfolio-hover': '#615c84',
           '--container-heading-color': '#266150',
-          '--texts-color': 'black'
+          '--texts-color': 'white'
   
         }
       };
