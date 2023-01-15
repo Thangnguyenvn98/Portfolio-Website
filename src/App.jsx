@@ -10,10 +10,8 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <main>
-    
     <Navbar/>
     <FloatingNav/>
-    
     <Header/>
     <Experience/>
     <Portfolio/>
