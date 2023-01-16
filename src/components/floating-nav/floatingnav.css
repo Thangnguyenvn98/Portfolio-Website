@@ -1,0 +1,56 @@
+#floatingnav {
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    z-index:2;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(20px);
+    visibility:hidden;
+
+
+}
+#floatingnav a{
+    background: transparent;
+    padding:0.9rem;
+    display: flex;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    color: white;
+}
+#floatingnav a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+#floatingnav a.active {
+    background: var(--offset-color);
+    color: var(--text-color);
+}
+@media screen and (max-width:1024px) {
+    #floatingnav {
+        z-index:10;
+        visibility:visible;
+
+       
+    }
+    .theme__icon {
+        font-size:1.1rem;
+        background: transparent;
+        
+
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    #floatingnav {
+        gap:0.5rem;
+        left: 50%;
+    }
+}
