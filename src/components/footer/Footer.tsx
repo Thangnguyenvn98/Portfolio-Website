@@ -7,6 +7,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsDiscord} from 'react-icons/bs'
+import data from '../header/data'
 
 
 
@@ -17,10 +18,12 @@ const Footer:React.FC<Props> = () => {
     <footer id='footer'>
       <a href="/#" className='footer__logo'>Thang Nguyen</a>
       <ul className='permalinks'>
-        <li><a href="https://linkedin.com"><BsLinkedin/></a></li>
-        <li><a href="https://github.com"><BsGithub/></a></li>
-        <li><a href="https://instagram.com"><BsInstagram/></a></li>
-        <li><a href="https://discord.com"><BsDiscord/></a></li>
+        {
+          data.map(item=>(
+            <li><a key ={item.id} href={item.link} target='_blank' rel="noopener noreferrer">{item.icon}</a></li>
+          ))
+        }
+     
 
       </ul>
       <div className="footer__socials">
