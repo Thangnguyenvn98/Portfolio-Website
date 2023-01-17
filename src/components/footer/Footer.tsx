@@ -3,10 +3,7 @@ import './footer.css'
 import {BsFacebook} from 'react-icons/bs'
 import {BsSignal} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
-import {BsDiscord} from 'react-icons/bs'
+
 import data from '../header/data'
 
 
