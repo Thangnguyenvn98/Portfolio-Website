@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navbar.css'
 import Logo from '../../assets/portrait-photo.jpeg'
 import data from './data.'
 import ThemeTogglerButton from '../theme-toggler-button/ThemeTogglerButton'
 
+
 interface Props { }
 
 
 const Navbar: React.FC<Props> = () => {
-
+  const [themeText,setThemeText] = useState<true | false>(false)
   
   
   return (
@@ -22,7 +23,7 @@ const Navbar: React.FC<Props> = () => {
                 {data.map((item) => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
                 }
             </ul>
-            <ThemeTogglerButton/>
+            <small onClick={()=> setThemeText(!themeText)}>{themeText ? 'Light Mode':'Dark Mode'}<ThemeTogglerButton/></small>
         </div>
     </nav>
     
