@@ -13,9 +13,12 @@
     border-radius: 3rem;
     backdrop-filter: blur(20px);
     visibility:hidden;
-
-
 }
+
+
+
+
+
 #floatingnav a{
     background: transparent;
     padding:0.9rem;

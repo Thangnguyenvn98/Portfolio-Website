@@ -30,6 +30,8 @@
 .contact__option:hover {
     background: transparent;
     border-color: var(--primary-button-color);
+    transform: scale(1.2);
+
 
 }
 .contact__option-icon {
@@ -65,6 +67,9 @@ input, textarea{
         gap: 2rem;
 
     }    
+    .contact__option:hover {
+        
+        transform: none;}
 }
 
 @media screen and (max-width:600px){
