@@ -1,11 +1,11 @@
 .theme__icon {
-    box-shadow: 0 0 0 3px var(--text-color) ;
+    box-shadow: 0 0 0 2px var(--text-color) ;
     background: var(--offset-color);
     color: var(--button-text-color);
     font-size: 2rem;
     cursor:pointer;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    padding: 10px 16px;
+    padding: 6px 12px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -19,4 +19,9 @@
     transform: rotate(360deg);
     transition: var(--transition);
 
+}
+
+.theme-container{
+    display: flex;
+    flex-direction: column;
 }

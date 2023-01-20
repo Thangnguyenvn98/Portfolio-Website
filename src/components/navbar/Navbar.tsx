@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
 import Logo from '../../assets/portrait-photo.jpeg'
 import data from './data.'
@@ -9,7 +9,6 @@ interface Props { }
 
 
 const Navbar: React.FC<Props> = () => {
-  const [themeText,setThemeText] = useState<true | false>(false)
   
   
   return (
@@ -23,7 +22,7 @@ const Navbar: React.FC<Props> = () => {
                 {data.map((item) => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
                 }
             </ul>
-            <small onClick={()=> setThemeText(!themeText)}>{themeText ? 'Light Mode':'Dark Mode'}<ThemeTogglerButton/></small>
+            <ThemeTogglerButton/>
         </div>
     </nav>
     

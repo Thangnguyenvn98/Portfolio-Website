@@ -75,8 +75,10 @@ const ThemeTogglerButton: React.FC = () => {
     }, [icon]);
   return (
     
-
-    <button className = "theme__icon" onClick={() => setIcon(icon === 'moon' ? 'sun' : 'moon')}>{icon==='sun'?<FiMoon /> : <FiSun />}</button>
+    <div className="theme-container" onClick={() => setIcon(icon === 'moon' ? 'sun' : 'moon')}>
+    <small>{icon==='sun'?'Dark Mode' : 'Light Mode'}</small>
+    <button className = "theme__icon" >{icon==='sun'?<FiMoon /> : <FiSun />}</button>
+    </div>
     )
 }
 
