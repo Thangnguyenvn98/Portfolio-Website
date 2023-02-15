@@ -12,13 +12,13 @@ const Experience: React.FC = () => {
           <h2>My Experience</h2>
           <div className="container experience__container">
             <div className="experience__frontend">
-              <h3>Front End</h3>
+              <h3>Front End & Framework</h3>
               <div className="experience__content">
                 {frontend.map(item=><article key={item.id} className={item.articleClass}>{item.icon}<div><h4>{item.title}</h4><small className={item.smallClass}>{item.experience}</small></div></article>)}
               </div>
             </div>
             <div className="experience__backend">
-              <h3>Back End</h3>
+              <h3>Back End, Framework & Database</h3>
               <div className="experience__content">
               {backend.map(item=><article key={item.id} className={item.articleClass}>{item.icon}<div><h4>{item.title}</h4><small className={item.smallClass}>{item.experience}</small></div></article>)}
               </div>
